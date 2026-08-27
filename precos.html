@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preços</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header class="cabecalho"><!--cabecalho do site-->
+        <div class="logo">CineSenai</div>
+        <nav class="menu">
+            <a href="index.html">Em cartaz</a>
+            <a href="em_breve.html">Em breve</a>
+            <a href="">Preços</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main class="Container">
+        <h1>Preços</h1>
+        <p class="subtitulo">Compre seus ingressos</p>
+
+        <div class="area-ingressos">
+
+            <form action="/processar-ingressos" method="post" class="coluna-form">
+
+            
+
+                <label for="data">Data da sessao:</label>
+                <input type="password" id="data" name="data" placeholder="Digite a data da sessao" required minlength="8" maxlength="15"><br>
+                
+                <div class="filme">
+                    <h1>Homem Aranha:Um novo dia</h1>
+                    <p class="preço"> Ingresso meia: <entrada-R1></entrada-R1>24,00</p>
+                    <input type="checkbox" id="meia" name="meia" value="meia">
+                <label for="preços">Meia</label><br>
+                    <h2></h2>
+                    <p class="preço">ingresso inteira: R$48,00</p>
+                     <input type="checkbox" id="inteira" name="inteira" value="inteira">
+                <label for="preços">Inteira</label><br>
+
+                </div>
+
+                <div class="filme">
+                    <h1>Invocação do mal 4:o ultimo ritual</h1>
+                    <p class="preço"> Ingresso meia: <entrada-R1></entrada-R1>18,00</p>
+                    <input type="checkbox" id="meia" name="meia" value="meia">
+                <label for="preços">Meia</label><br>
+                <h2></h2>
+                    <p class="preço">ingresso inteira: R$50,00</p>
+                     <input type="checkbox" id="inteira" name="inteira" value="inteira">
+                <label for="preços">Inteira</label><br>
+                </div>
+
+
+                 <div class="filme">
+                    <h1>O diabo veste prada 2</h1>
+                    <p class="preço"> Ingresso meia: <entrada-R1></entrada-R1>20,00</p>
+                    <input type="checkbox" id="meia" name="meia" value="meia">
+                <label for="preços">Meia</label><br>
+                <h2></h2>
+                    <p class="preço">ingresso inteira: R$40,00,00</p>
+                     <input type="checkbox" id="inteira" name="inteira" value="inteira">
+                <label for="preços">Inteira</label><br>
+                </div>
+
+                <div class="filme">
+                    <h1>Verity</h1>
+                    <p class="preço"> Ingresso meia: <entrada-R1></entrada-R1>30,00</p>
+                    <input type="checkbox" id="meia" name="meia" value="meia">
+                <label for="preços">Meia</label><br>
+                <h2></h2>
+                    <p class="preço">ingresso inteira: R$60,00</p>
+                     <input type="checkbox" id="inteira" name="inteira" value="inteira">
+                <label for="preços">Inteira</label><br><br>
+                </div>
+
+                <a href="#" class="botão-pagamento">Pagamento dos ingressos:</a><br>
+
+                 <input type="checkbox" id="Cartão de crédito" name="Cartão de crédito" value="Crédito">
+                <label for="Crédito">Cartão de crédito</label><br>
+
+                <input type="checkbox" id="Cartão de débito" name="Cartão de débito" value="Débito">
+                <label for="débito">Cartão de débito</label><br>
+
+                <input type="checkbox" id="Dinheiro" name="Dinheiro" value="Dinheiro">
+                <label for="Dinheiro">Dinheiro(pagamento realizado somente no estabelecimento)</label><br><br>
+
+
+
+
+                <button type="submit" class="btn-pagamento">Realizar o pagamento</button>
+                
+
+
+
+            </form>
+
+            
+
+        </div>
+
+
+    </main>
+
+
+<body>
+    
+</body>
+</html>

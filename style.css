@@ -9,7 +9,7 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: aqua;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .cabecalho{
@@ -18,7 +18,7 @@ body{
     display: flex; /* Eles passam a ficar na mesma fila*/
     justify-content: space-between; /*Coloca cada filho separado*/
     align-items: center;
-    border-bottom: 2px solid #122f34 ;
+    border-bottom: 2px solid #1a7cb4 ;
 }
 .logo{
     font-size: 24px;
@@ -52,7 +52,7 @@ body{
     gap: 25px;
 }
 .card-filmes{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     border-radius: 10px;/*Arredonda as bordas*/
     overflow: hidden;/*Cortar e esconder qualquer conteudo que ultrapasse os limites*/
     box-shadow: 0 4px 12px #66a1ac;
@@ -117,3 +117,74 @@ body{
 .botão-comprar:hover{
     background-color: rgb(255, 0, 60);
 }
+
+.area-incrição{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;/*Alinha o topo de todas as colunas*/
+
+}
+.coluna-form{
+    flex: 1;/*faz um formulario crescer proporcionalmente*/
+    min-width: 320px;
+    background-color: rgb(69, 99, 198);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px #66a1ac;
+}
+.coluna-midia{
+    flex: 1;
+    min-width: 320px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.coluna-form{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+.coluna-form input[type="text"],
+.coluna-form input[type="passworld"],
+.coluna-form input[type="email"],
+.coluna-form input[type="date"],
+.coluna-form select{
+    width: 100%;
+    padding: 10px;
+    margin-top:5px;
+    margin-bottom: 15px;
+    background-color: black;
+    border-radius: 5px;
+    color: black;
+    font-size: 14px;
+}
+.btn-enviar{
+    background-color: rgb(17, 162, 194);
+    color: rgba(34, 43, 51, 0.133);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;/*transforma a seta do mouse em uma maozinha*/
+}
+ .btn-enviar:hover{
+    background-color: #122f34;
+ }
+
+  .btn-limpar:hover{
+    background-color: #122f34;
+  }
+
+.btn-limpar{
+     background-color: rgb(63, 162, 220);
+    color: rgba(42, 115, 179, 0.133);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;/*transforma a seta do mouse em uma maozinha*/
+    margin-left: 10px;
+}
+
+
