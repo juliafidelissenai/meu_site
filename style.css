@@ -188,3 +188,28 @@ body{
 }
 
 
+.tabela_cardapio{
+    width: 80px;
+    border-radius: 10px;
+}
+.tabela_preco{
+    width: 100%;
+    background-color: beige;
+    text-align: center;
+    font-size: 15px;
+}
+.tabela_preco th{
+    background-color: beige;
+    color: #122f34;
+    padding: 16px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #122f34;
+}
+.tabela_preco td{
+    padding: 16px;
+    border-bottom: 1px solid #122f34;
+    color: darkblue;
+
+}
+
